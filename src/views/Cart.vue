@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div> 
         <div class="goods" v-for="(item,index) in cartarr" :key="index">
             {{item.title}}
             <div class="goodsright">
