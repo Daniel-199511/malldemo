@@ -1,4 +1,4 @@
-# jingdong
+# malldemo
 
 ## Project setup
 ```
