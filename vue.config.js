@@ -1,5 +1,5 @@
 module.exports = {
-  baseUrl: './',
+  publicPath: './',
   configureWebpack:{
       devServer:{
         //MOCK接口编写的地方
@@ -36,7 +36,7 @@ module.exports = {
           let tokenkey='xdclass'
           app.get('/api/login',(req,res)=>{
             const {username,password}=req.query
-            if(username=='xiaod' && password=='123456' || username=='tim' && password=='123456'){
+            if(username=='xiaod' && password=='123456' || username=='tim' && password=='123456' || username=='dannyq' && password=='123456'){
               res.json({
                 code:0,
                 message:'登录成功',

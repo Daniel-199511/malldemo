@@ -8,7 +8,6 @@ import 'amfe-flexible'
 import setaxios from './setaxios'
 setaxios()
 Vue.config.productionTip = false
-Vue.prototype.$http=axios
 
 
 //路由守卫
